@@ -1,5 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import About from './components/About.js';
+import Contact from './components/Contact.js';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -22,31 +26,15 @@ function App() {
           </ul>
         </nav>
 
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/resume" component={Resume} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
       </div>
     </Router>
   );
-}
-
-function About() {
-  return <h1>About Me</h1>;
-}
-
-function Contact() {
-  return <h1>Contact</h1>;
-}
-
-function Portfolio() {
-  return <h1>Portfolio</h1>;
-}
-
-function Resume() {
-  return <h1>Resume</h1>;
 }
 
 export default App;
