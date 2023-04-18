@@ -35,7 +35,7 @@ nav li {
 
 nav li a {
   display: block;
-  color: white;
+  color: antiquewhite;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -43,7 +43,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 
 nav li ::after {

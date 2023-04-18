@@ -28,18 +28,17 @@
     height: 50px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
-  }  
-
+    display: flex;
+    justify-content: center;
+  }
+  
   .portfolio-description a {
     color: antiquewhite;
     text-decoration: none;
-    text-align: center;
   }
   
-
   .href {
     color: antiquewhite;
     text-decoration: none;
-
-
   }
+  
