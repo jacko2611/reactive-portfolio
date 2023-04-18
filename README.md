@@ -26,3 +26,4 @@ jacksonkent70@gmail.com or www.github.com/jacko2611
 Below is a link to the deployed site:
 https://jacko2611.github.io/reactive-portfolio/
 And a screenshot of the deployed application:
+<img width="1438" alt="Screen Shot 2023-04-18 at 10 11 29 pm" src="https://user-images.githubusercontent.com/117012325/232773570-3544541d-68eb-4295-9b73-81d5e3b887fd.png">
