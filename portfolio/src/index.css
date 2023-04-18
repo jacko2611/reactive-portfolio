@@ -1,5 +1,6 @@
 html {
   font-family: 'Anuphan', sans-serif;
+  color: rgb(137, 137, 206);
   background-color: antiquewhite;
 }
 
@@ -9,8 +10,9 @@ h1 {
 }
 
 nav {
-  background-color: crimson;
+  background-color: rgb(137, 137, 206);
   overflow: hidden;
+  margin-bottom: 15px;
 }
 
 nav ul {
