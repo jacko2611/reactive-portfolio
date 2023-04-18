@@ -54,3 +54,34 @@ nav li ::after {
   background-color: white;
   transition: width 0.3s;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+.fa-github, .fa-linkedin, .fa-stack-overflow {
+  font-size: 24px;
+}
