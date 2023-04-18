@@ -29,3 +29,17 @@
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
   }  
+
+  .portfolio-description a {
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+
+  .href {
+    color: antiquewhite;
+    text-decoration: none;
+
+
+  }

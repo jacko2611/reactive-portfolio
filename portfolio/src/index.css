@@ -6,8 +6,14 @@ html {
 
 h1 {
   justify-content: center;
+  margin-top: 50px; /* Optional: add some top margin to the h1 element */
 
 }
+
+div {
+  text-align: center;
+}
+
 
 nav {
   background-color: rgb(137, 137, 206);
