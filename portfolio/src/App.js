@@ -33,7 +33,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
 
-        {/* <footer>
+        <footer>
           <div className="social-links">
             <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github" />
@@ -45,7 +45,7 @@ function App() {
               <i className="fab fa-stack-overflow" />
             </a>
           </div>
-        </footer> */}
+        </footer>
       </div>
     </Router>
   );

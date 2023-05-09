@@ -55,7 +55,7 @@ nav li ::after {
   transition: width 0.3s;
 }
 
-footer {
+/* footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,4 +84,4 @@ footer {
 
 .fa-github, .fa-linkedin, .fa-stack-overflow {
   font-size: 24px;
-}
+} */

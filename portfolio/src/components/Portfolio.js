@@ -1,9 +1,15 @@
 import React from 'react';
-import './Portfolio.css'; // import external CSS file for styling
+import './Portfolio.css';
 
 function Portfolio() {
   return (
     <div className="portfolio-container">
+      <div className="portfolio-card">
+        <img src={require("/Users/jacksonkent/Desktop/Bootcamp/reactive-portfolio/portfolio/src/image7.jpg")} alt="Project 2" />
+        <div className="portfolio-description">
+          <a href="https://github.com/jacko2611/modulate">Modulate</a>
+        </div>
+      </div>
       <div className="portfolio-card">
         <img src={require("/Users/jacksonkent/Desktop/Bootcamp/reactive-portfolio/portfolio/src/image1.jpg")} alt="Project 1" />
         <div className="portfolio-description">
